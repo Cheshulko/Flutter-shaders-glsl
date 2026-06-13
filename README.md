@@ -1,20 +1,24 @@
-# Flutter-Shader-GLSL
+# Flutter GLSL Shaders
 
 ## Overview
-Flutter 3.4+ GLSL shaders 
+A showcase of custom GLSL shaders running in Flutter 3.4+. This project demonstrates how to integrate external shader code into Flutter's rendering pipeline to create high-performance visual effects.
 
-## Preconditions
+## Prerequisites
+*   **Flutter SDK:** version `3.4.0` or later.
+*   The project was built using [3.4.0-34.1.pre](https://storage.googleapis.com/flutter_infra_release/releases/beta/macos/flutter_macos_3.4.0-34.1.pre-beta.zip).
+*   View all SDK releases [here](https://docs.flutter.dev/development/tools/sdk/releases?tab=macos).
 
-Flutter SDK 3.4 or later 
-<br>Using [3.4.0-34.1.pre](https://storage.googleapis.com/flutter_infra_release/releases/beta/macos/flutter_macos_3.4.0-34.1.pre-beta.zip)
-<br>Available Flutter SDK releases [here](https://docs.flutter.dev/development/tools/sdk/releases?tab=macos)
-## UI
-
+## UI Preview
 ![](assets/sc_1.png)
 
-| Shader  | Path | Shadertoy`s link |
-| -------  |---| --- |
-| <img src="https://github.com/Cheshulko/Flutter-Shader-GLSL/blob/main/assets/sc_4.png?raw=true" width="266" height="200" /> | assets/shader_test_1.glsl | https://www.shadertoy.com/view/Ml2XRD |
-| <img src="https://github.com/Cheshulko/Flutter-Shader-GLSL/blob/main/assets/sc_3.png?raw=true" width="266" height="200" /> | assets/shader_test_2.glsl | https://www.shadertoy.com/view/ftSSRR |
-| <img src="https://github.com/Cheshulko/Flutter-Shader-GLSL/blob/main/assets/sc_5.png?raw=true" width="266" height="200" /> | assets/shader_test_3.glsl | https://www.shadertoy.com/view/ttKGDt |
-| <img src="https://github.com/Cheshulko/Flutter-Shader-GLSL/blob/main/assets/sc_6.png?raw=true" width="266" height="200" /> | assets/shader_test_4.glsl | https://www.shadertoy.com/view/3sySRK |
+## Shader Gallery
+
+| Preview | Local Path | Shadertoy Source |
+| :--- | :--- | :--- |
+| <img src="assets/sc_4.png" width="266"/> | `assets/shader_test_1.glsl` | [Ml2XRD](https://www.shadertoy.com/view/Ml2XRD) |
+| <img src="assets/sc_3.png" width="266"/> | `assets/shader_test_2.glsl` | [ftSSRR](https://www.shadertoy.com/view/ftSSRR) |
+| <img src="assets/sc_5.png" width="266"/> | `assets/shader_test_3.glsl` | [ttKGDt](https://www.shadertoy.com/view/ttKGDt) |
+| <img src="assets/sc_6.png" width="266"/> | `assets/shader_test_4.glsl` | [3sySRK](https://www.shadertoy.com/view/3sySRK) |
+
+## License
+MIT
